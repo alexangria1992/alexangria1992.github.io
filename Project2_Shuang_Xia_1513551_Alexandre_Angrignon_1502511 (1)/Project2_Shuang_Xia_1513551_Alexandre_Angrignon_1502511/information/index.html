@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>booking website!</title>
+    <link href="stylenew.css" type="text/css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="xmlHTTPWeatherjs.js"></script>
+    <script src="xmlHttpRESTjs.js"></script>
+    <script src="xmlHttpMenujs.js"></script>
+    <script src="tableLayoutJs.js"></script>
+    <script src="initJsNew.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+<!-- 
+        <div class="header">
+            <span class="website-title">Welcome restaurant</span>
+
+        </div> -->
+
+        <div class="top-menu">
+            <div class="overlay-container"></div>
+            <div class="content-row">
+                <div class="first-column">
+                    <select id="dobnumber" class="yongyin">
+                        <option value="2"> 2 people</option>
+                        <option value="3"> 3 people</option>
+                        <option value="4"> 4 people</option>
+                        <option value="5"> 5 people</option>
+                        <option value="6"> 6 people</option>
+                        <option value="7"> 7 people</option>
+                        <option value="8"> 8 people</option>
+                    </select>
+                </div>
+                <div class="second-column">
+                    <input id="bday" class="yongyin2" type="date" name="bday" min="" max="" value="" required><br />
+
+                    <script>
+                        var bookingDate = document.getElementById("bday");
+                        var today = new Date();
+                        var month = today.getMonth() + 1;
+                        var day = today.getDate();
+                        var threeDaysLater = today.getDate() + 3;
+
+                        var newmonth = false;
+
+                        var getEndOfMonthDate = new Date(today.getFullYear(), month, 0);
+                        if (getEndOfMonthDate.getDate() < threeDaysLater) {
+                            threeDaysLater = threeDaysLater - getEndOfMonthDate.getDate();
+                            month = today.getMonth() + 2;
+                            newmonth = true;
+                        }
+
+                        if (month < 10) {
+                            month = "0" + month;
+                        }
+
+                        if (today.getDate() < 10) {
+                            day = "0" + day;
+                        }
+
+                        if (threeDaysLater < 10) {
+                            threeDaysLater = "0" + threeDaysLater;
+                        }
+
+                        if (newmonth == false) {
+                            bookingDate.value = today.getFullYear() + '-' + month + '-' + day;
+                            bookingDate.min = today.getFullYear() + '-' + month + '-' + day;
+                            bookingDate.max = today.getFullYear() + '-' + month + '-' + threeDaysLater;
+                        } else {
+                            bookingDate.value = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + day;
+                            bookingDate.min = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + day;
+                            bookingDate.max = today.getFullYear() + '-' + month + '-' + threeDaysLater;
+                        }
+
+                    </script>
+                </div>
+            </div>
+
+            <div class="content-row">
+                <div class="first-column">
+                    <select id="dobtime" class="yongyin3">
+                        <option value="4:30">4:30pm</option>
+                        <option value="5:30">5:30pm</option>
+                        <option value="6:30">6:30pm</option>
+                        <option value="7:30">7:30pm</option>
+                        <option value="8:30">8:30pm</option>
+                    </select>
+                </div>
+                <div class="second-column">
+                    <button type="button" class="yongyin4">TABLE</button>
+                </div>
+            </div>
+
+            <div class="content-row">
+                <div class="full-column">
+                    <button type="button" class="yongyin5">MENU</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container2">
+            <div class="content-right">
+                <span><h2 style="color:rgb(14, 13, 13); text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Reserve Information</h2></span><br/><br/>
+
+                <button class="con-right-number";> People : <span id="showNumber"></span></button>
+                <br /><br />
+                <button class="con-right-date" ;> Date : <span id="showDate"></span></button>
+                <br /><br />
+                <button class="con-right-time" ;> Time : <span id="showTime"></span></button>
+                <br /><br />
+                <button class="con-right-table" ;> Table : <span id="showTable"></span></button>
+                <br /><br />
+                <button class="con-right-dishes" ;> Dish : <span id="showDishes"></span></button>
+
+                <br />
+                <hr style="border:1px dashed #353434" color="0c0c0c">
+                <button class="con-right-pay"; style="color:rgb(243, 116, 116); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;padding: 10px; ">Total to pay: $<span id="showTotal"></span></button>
+                <br/><br/>
+                <button class="con-right-confirm" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> Confirm </button>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!--Table Layout-->
+    <div id="outer" hidden>
+        <div class="overlay-table-layout"></div>
+        <div class="canvas-content">
+            <canvas id="testcanvas" height="885" width="1080" style="border:10px rgb(226, 175, 35) solid"></canvas>
+            <div id="info-layout"></div>
+        </div>
+        <button id="finishBookingTableBtn">Finish Booking Table</button>
+    </div>
+
+    <!--Dish Layout-->
+    <div id="outer-dish" hidden>
+        <div class="overlay-dish-layout"></div>
+        <div id="dishLayout">
+            <h2>Menu</h2>
+            <div class="dish-container"></div>
+            <br />
+        </div>
+        <button id="finishBookingDishBtn">Finish Booking Dishes</button>
+    </div>
+
+</body>
+</html>

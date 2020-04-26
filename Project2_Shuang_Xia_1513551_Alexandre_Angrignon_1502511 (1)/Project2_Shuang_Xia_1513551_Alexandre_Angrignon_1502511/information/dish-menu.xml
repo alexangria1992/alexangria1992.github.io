@@ -1,0 +1,127 @@
+<DishList>
+  <Dish id="1">
+    <DishName>Bandeja Paisa</DishName>
+    <Image>Bandeja Paisa.jpg</Image>
+    <Price>25</Price>
+    <description>
+      frying pan, pork, cargamanto beans, onion,
+      carrot, salad, pork rind, avocado, sausage, arepa, fried plantain,
+      black pudding and a fried egg
+    </description>
+    <type></type>
+  </Dish>
+  <Dish id="2">
+    <DishName>Simple fish</DishName>
+    <Image>Simple fish.jpg</Image>
+    <Price>15</Price>
+    <description>
+      vegetable, butter, stale bread, cream cheese, hreb, garlic, milk, onion,
+      cherry tomatoes, cod(skinned and bones removed), Coriander-for garnishing
+    </description>
+    <type>egg free</type>
+  </Dish>
+  <Dish id="3">
+    <DishName>Indian cream soup</DishName>
+    <Image>Indian cream soup.jpg</Image>
+    <Price>12</Price>
+    <description>
+      paneer, onion, cream, cashew nuts, poppy seeds, cumins seeds,
+      chopped tomato, green chilles, butter, sugar, salt, Coriander-for garnishing
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+  <Dish id="4">
+    <DishName>Creamy Cashew</DishName>
+    <Image>Creamy Cashew.jpg</Image>
+    <Price>13</Price>
+    <description>
+      cashews, coconut milk, yogurt, tomato puree, paneer, onion, ginger, curry powder,
+      red chili, salt, Coriander-for garnishing
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+  <Dish id="5">
+    <DishName>Paneer Makhanwala</DishName>
+    <Image>Paneer Makhanwala.jpg</Image>
+    <Price>13</Price>
+    <description>
+      tofu, peneer, fresh green peas, poppy seeds, ghee,ginger,
+      onion, tomatoes, turmeric powder, red chili, butter, salt, Coriander-for garnishing
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+  <Dish id="6">
+    <DishName>Amritsari Pindi Chole</DishName>
+    <Image>Amritsari Pindi Chole.jpg</Image>
+    <Price>10</Price>
+    <description>
+      cup chickpae, tea bags, red chili, turmeric powder,
+      roasted anardana powder, Cumin seeds, black salt,
+      hing, onion, ginger, tomatoes. baking soda, Coriander-for garnishing
+    </description>
+    <type></type>
+  </Dish>
+  <Dish id="7">
+    <DishName>Adraki Masala Paneer</DishName>
+    <Image>Adraki Masala Paneer.jpg</Image>
+    <Price>17</Price>
+    <description>
+      beef, paneer, ghee, cumin, garlic, ginger, onions, tomato, green chili, red chili, turmeric,
+      coriander powder, fresh cream, sugar, Coriander-for garnishing
+    </description>
+    <type></type>
+  </Dish>
+  <Dish id="8">
+    <DishName>Tikka Masala</DishName>
+    <Image>Tikka Masala.jpg</Image>
+    <Price>10</Price>
+    <description>
+      water, chopped coriander, cumin powder, tomato pure,
+      garlic, ginger, flour, cumin seeds, red chili powder, lime juice, curd thick, onion,
+      chopped tomato, salt,paneer, fresh cream, suger, fresh cream
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+  <Dish id="9">
+    <DishName>Tawa Paneer</DishName>
+    <Image>Tawa Paneer.jpg</Image>
+    <Price>12</Price>
+    <description>
+      cottage cheese, fresh green peas, poppy seeds,
+      cashew nut powder, ghee, cumin seeds, onion, gralic, tomatoes, lime garma masala,
+      curd thick,onion, chopped tomatoes, garam masala, turmeric powder,
+      red chilli powder, coriander powder, butter, grated panneer, salt
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+  <Dish id="10">
+    <DishName>Sweet or Salted Lassi</DishName>
+    <Image>Sweet or Salted Lassi.jpg</Image>
+    <Price>8</Price>
+    <description>yogurt, sugar, cardamom, ice cubes, cup milk</description>
+    <type></type>
+  </Dish>
+  <Dish id="11">
+    <DishName>Mushroom Paneer</DishName>
+    <Image>Mushroom Paneer.jpg</Image>
+    <Price>11</Price>
+    <description>
+      grated paneer,mushroom,chopped mushroom, tomato,
+      ginger garlic paste, shahjeera, red chilli powder, black paper powder,
+      Salt, Coriander- for garnishing, Fresh ream
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+  <Dish id="12">
+    <DishName>Matar Paneer Masala</DishName>
+    <Image>Matar Paneer Masala.jpg</Image>
+    <Price>9</Price>
+    <description>
+      oil, chopped onion, chopped tomato, chopped ginger,
+      cloves garlic, chopped green chili, coriander powder, red chilli powder, cumin powder, 
+      garam masala powdwer, paneer, peas, salt, Fresh coriander for garnishing
+    </description>
+    <type>vegetarian</type>
+  </Dish>
+
+</DishList>

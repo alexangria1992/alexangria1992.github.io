@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<restaurant>
+<tableList>
+    <room id="1">
+      <table id="1">
+        <capacity>2</capacity>
+        <status time="4:30">Booked</status>
+        <status time="5:30">Booked</status>
+        <status time="6:30">Booked</status>
+        <status time="7:30">Booked</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="2">
+        <capacity>4</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Booked</status>
+        <status time="8:30">Booked</status>
+      </table>
+      <table id="3">
+        <capacity>6</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Booked</status>
+        <status time="8:30">Booked</status>
+      </table>
+      <table id="4">
+        <capacity>2</capacity>
+        <status time="4:30">Booked</status>
+        <status time="5:30">Booked</status>
+        <status time="6:30">Booked</status>
+        <status time="7:30">Booked</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="5">
+        <capacity>4</capacity>
+        <status time="4:30">Booked</status>
+        <status time="5:30">Booked</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Booked</status>
+        <status time="8:30">Booked</status>
+      </table>
+      <table id="6">
+        <capacity>8</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Booked</status>
+        <status time="6:30">Booked</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+    </room>
+    <room id="2">
+      <table id="1">
+        <capacity>2</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="2">
+        <capacity>4</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="3">
+        <capacity>8</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="4">
+        <capacity>2</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="5">
+        <capacity>4</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="6">
+        <capacity>6</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+    </room>
+    <room id="deck">
+      <table id="1">
+        <capacity>2</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="2">
+        <capacity>4</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="3">
+        <capacity>6</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="4">
+        <capacity>6</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="5">
+        <capacity>8</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="6">
+        <capacity>2</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+      <table id="7">
+        <capacity>4</capacity>
+        <status time="4:30">Available</status>
+        <status time="5:30">Available</status>
+        <status time="6:30">Available</status>
+        <status time="7:30">Available</status>
+        <status time="8:30">Available</status>
+      </table>
+    </room>
+  </tableList>
+</restaurant>

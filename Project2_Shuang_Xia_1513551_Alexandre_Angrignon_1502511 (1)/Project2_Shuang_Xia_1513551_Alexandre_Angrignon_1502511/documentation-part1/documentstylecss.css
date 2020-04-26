@@ -1,0 +1,139 @@
+body {
+    height: 1000px;
+}
+
+#glass{
+	background-color:rgba(245, 242, 238, 0.2);
+    width: 100%;
+	height: 120px;
+	position: relative;
+}
+.mybody{
+	background-image: url('booking1.png');
+	background-size: cover;
+
+}
+
+.text-animation-3 {
+	position: absolute;
+	color: white;
+	top: 0%;
+	left: 80%;
+	animation: textanimation3 10s forwards 5;
+	transition: none;
+	transition-delay: 20s;
+	z-index: 1;
+}
+
+
+.advertisement-content{
+	text-align: center;
+}
+
+@keyframes moveInFromLeftAndFade {
+	80% {
+		left: 0;
+		opacity: 1;
+	}
+
+	100% {
+		left: 0;
+		opacity: 0;
+	}
+}
+
+@keyframes moveInFromRightAndFade {
+	80% {
+		right: 0;
+		opacity: 1;
+	}
+
+	100% {
+		right: 50px;
+		opacity: 0;
+	}
+}
+
+@keyframes moveTopToBottom {
+	100% {
+		top: 0;
+	}
+}
+
+/* 
+@keyframes textanimation3 {
+	25% {
+		color: pink;
+		left: 0%;
+		top: 0%;
+		font-size: 20px;
+	}
+	50% {
+		color: rgb(237, 183, 241);
+		left: 0%;
+		top: 80%;
+		font-size: 24px;
+	}
+	75% {
+		color: rgb(165, 163, 253);
+		left: 80%;
+		top: 80%;
+		font-size: 28px;
+	}
+	100% {
+		color: rgb(147, 212, 231);
+		left: 80%;
+		top: 0%;
+		font-size: 36px;
+	}
+} */
+
+
+#MyNavigation {
+	font-size:20px;
+	color: white;
+	position: relative;
+	width: 100%;
+	text-align: left;
+	/*padding: 5px;*/
+	text-decoration: none;
+	display: inline-flex;
+}
+
+#MyNavigation a{
+	width: 50%;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right:10px;
+	text-decoration: none;
+	text-align: center;
+	background-color:rgba(15, 15, 15, 0.589);
+	color: rgba(255, 255, 255, 0.726);
+}
+
+/* .incontent a {
+	 width: 500px;
+
+} */
+
+/* .container {
+	width: 1000px;
+	height: 700px;
+	display: inline-block;
+	position: relative;
+}
+
+.left-content {
+	width: 90%;
+	display: inline-block;
+	position: relative;
+} */
+
+#partial-render-view {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+
+
